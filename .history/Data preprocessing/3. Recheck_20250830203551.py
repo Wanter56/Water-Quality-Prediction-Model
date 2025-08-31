@@ -1,8 +1,8 @@
 import pandas as pd
 
 # 读取CSV文件
-file_path = '50_cleaned.csv'  # 替换为你的文件路径
-df = pd.read_csv(file_path)
+file_path = ''  # 替换为你的文件路径
+df = pd.read_excel(file_path)
 
 # 检查数据是否有缺失值
 missing_values = df.isnull().sum()
